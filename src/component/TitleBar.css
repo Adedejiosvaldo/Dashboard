@@ -1,0 +1,13 @@
+.titlebar {
+  display: flex;
+  background-color: white;
+
+  box-shadow: 9px 0px 15px lightgrey;
+}
+.titlebar h1 {
+  text-align: left;
+  padding: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}

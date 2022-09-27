@@ -1,0 +1,7 @@
+.elepant {
+  flex: 0.85;
+  background-color: #f4f6fa;
+}
+.elepant__picture {
+  height: 100px;
+}

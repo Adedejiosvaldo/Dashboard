@@ -1,0 +1,11 @@
+td {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+table {
+  border-spacing: 0px;
+  margin-top: -18px;
+}

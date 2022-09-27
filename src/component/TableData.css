@@ -1,0 +1,24 @@
+table,
+td,
+th,
+tr {
+  text-align: center;
+}
+th {
+  background-color: #e5e5e5;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: px;
+}
+
+table {
+  border-spacing: 0px;
+  margin-top: -18px;
+}
+td {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
