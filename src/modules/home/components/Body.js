@@ -1,10 +1,10 @@
 import React from "react";
-import "./Body.css";
+import Style from "../../../styles/Body.module.css";
 import TableData from "./TableData";
 const Body = () => {
   return (
-    <div className='body'>
-      <h3 className='lazy'>All Elephanys</h3>
+    <div className={Style.body}>
+      <h3 className={Style.lazy}>All Elephants</h3>
       <TableData />
     </div>
   );

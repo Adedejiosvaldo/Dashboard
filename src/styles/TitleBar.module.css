@@ -11,3 +11,8 @@
   font-size: 15px;
   font-weight: 400;
 }
+@media (max-width: 790px) {
+  .titlebar {
+    display: none;
+  }
+} ;

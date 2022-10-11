@@ -1,9 +1,9 @@
 import React from "react";
-import "./TitleBar.css";
+import titleBar from "../styles/TitleBar.module.css";
 const TitleBar = ({ Heading }) => {
   return (
-    <div className='titlebar__main'>
-      <div className='titlebar'>
+    <div className={titleBar.titlebar__main}>
+      <div className={titleBar.titlebar}>
         <h1>{Heading}</h1>
       </div>
     </div>
