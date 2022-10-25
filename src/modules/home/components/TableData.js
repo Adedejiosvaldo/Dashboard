@@ -3,12 +3,13 @@ import TableContents from "./TableContents";
 import Pagination from "../../../layout/Pagination";
 import tableData from "../../../styles/TableData.module.css";
 import getData from "../../../services/getApi";
-import { Skeleton } from "@mui/material";
+
 import SkeletonLoop from "./Skeleton";
-import { Link } from "react-router-dom";
+
 const TableData = () => {
   const [elephant, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+
   const [postsPerPage] = useState(10);
   const [Loading, setLoading] = useState(false);
 
@@ -29,6 +30,8 @@ const TableData = () => {
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
+  const x = true;
+  const y = true;
   return (
     <div>
       <table className={tableData.table__width}>

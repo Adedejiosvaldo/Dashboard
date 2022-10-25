@@ -1,0 +1,28 @@
+.inputStyle {
+  border: none;
+  padding: 5px;
+  padding-left: 4px;
+  outline: none;
+  animation: wiggle 2s;
+  border-bottom: 1px solid grey;
+  transition: border-bottom 0.3s ease-in;
+}
+
+@keyframes wiggle {
+}
+.inputStyle:focus {
+  border-bottom: 2px solid blue;
+  transition: border-bottom 0.3s ease-out;
+}
+.button {
+  background-color: #b9b9ff;
+  padding: 5px;
+  color: black;
+  font-weight: 600;
+  border: none;
+  margin-left: 5px;
+}
+
+.button::before {
+  background-color: aliceblue;
+}

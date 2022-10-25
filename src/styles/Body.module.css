@@ -2,15 +2,23 @@
   margin-top: 0px;
   padding: 35px;
 }
-.lazy {
+
+.header__input {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.lazy {
 }
 .mainbody__img {
-  width: 100%;
+  width: 80%;
   height: 400px;
   object-fit: fill;
 }
+
 .elepant__picture {
 }
 .body__text {
